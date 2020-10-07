@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.duanmauandroid_mob204">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconapp"
+        android:label="Quản Lý Sách"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SachBanChay"></activity>
+        <activity android:name=".ThongKe" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LuotSachBanChayActivity" />
+        <activity android:name=".ListHoaDonChiTietByIDActivity" />
+        <activity android:name=".HoaDonChiTietActivity" />
+        <activity android:name=".HoaDonActivity" />
+        <activity android:name=".ListHoaDonActivity" />
+        <activity android:name=".ListBookActivity" />
+        <activity android:name=".ThemSachActivity" />
+        <activity android:name=".TheLoaiActivity" />
+        <activity android:name=".ListTheLoaiActivity" />
+        <activity android:name=".NguoiDungDetailActivity" />
+        <activity android:name=".NguoiDungActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ListNguoiDungActivity" />
+        <activity android:name=".ChangePasswordActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
